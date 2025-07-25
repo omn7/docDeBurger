@@ -28,7 +28,7 @@ body{
 p{
   font-family: monospace;
   font-optical-sizing: auto;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   font-style: normal;
   
@@ -37,7 +37,7 @@ h2{
      font-family: "Advent Pro", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
-  font-size: 30px;
+  font-size: 40px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -49,6 +49,43 @@ ul.examples{
 }
 ol{
   font-family: monospace;
-  font-size: 20px;
+  font-size: 19px;
+}
+footer{
+  width:100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 90px;
+ 
+}
+.name{
+  font-size: 30px;
+  margin-right: 50px;
+}
+ol{
+  list-style: none;
+  
+
+}
+ol>li{
+  padding: 19px;
+}
+.installation{
+  list-style-type: decimal;
+}
+p.get{
+  padding: 20px;
+  background-color: rgba(194, 192, 191, 0.774);
+  border-radius: 5px;
 }
 
+.usage{
+
+  list-style: decimal;
+}
+img{
+  border-radius: 8px;
+}
+ol.contributing{
+  list-style-type:decimal;
+}
