@@ -2,10 +2,11 @@
     width: 75%;
     margin-left: 12.5%;
     margin-right: 12.5%;
+    
    
 }
 body{
-    background: linear-gradient(45deg,rgb(234, 228, 228) 25%,rgba(212, 208, 208, 0.933)50%,rgb(187, 184, 184)75%);;
+    background: rgb(171, 146, 146);
     color:rgba(0, 0, 0, 0.882);
 }
 .heading{
@@ -31,6 +32,7 @@ p{
   font-size: 19px;
   font-weight: 500;
   font-style: normal;
+  text-align: justify;
   
 }
 h2{
@@ -77,6 +79,7 @@ p.get{
   padding: 20px;
   background-color: rgba(194, 192, 191, 0.774);
   border-radius: 5px;
+  text-align: none;
 }
 
 .usage{
@@ -85,7 +88,26 @@ p.get{
 }
 img{
   border-radius: 8px;
+  width: 100%;
 }
 ol.contributing{
   list-style-type:decimal;
+}
+@media (max-width:1000px){
+  .container
+  {
+    width: 80%;
+    margin-left: 5%;
+  }
+}
+@media (max-width:750px) {
+  .container{
+    width: 100%;
+    margin-left: none;
+  }
+  p.get{
+   font-size: 15px;
+  }
+  
+  
 }
