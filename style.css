@@ -6,8 +6,8 @@
    
 }
 body{
-    background: linear-gradient(45deg,rgb(226, 224, 224)25%,rgba(225, 216, 216, 0.955)50%,rgba(207, 200, 200, 0.856)75%);
-    color:rgba(0, 0, 0, 0.882);
+    background:linear-gradient(90deg,rgba(255, 255, 255, 0.953)25%,rgba(233, 246, 248, 0.69)50%,rgb(239, 245, 245)75%) ;
+    color:rgb(30, 55, 58);
 }
 .heading{
    font-family: "Goldman", sans-serif;
@@ -15,7 +15,7 @@ body{
   font-style: normal;
   
   font-size: 120px;
-  background:rgba(0, 0, 0, 0.697);
+  background:linear-gradient(45deg,rgb(108, 147, 165)25%,rgb(52, 79, 112)50%,rgb(25, 84, 120)75%);
   background-size: cover;
   background-clip:text;
   color: transparent;
@@ -75,9 +75,10 @@ ol>li{
 }
 p.get{
   padding: 20px;
-  background-color: rgba(194, 192, 191, 0.774);
+  background-color: rgba(161, 177, 178, 0.774);
   border-radius: 5px;
   text-align: none;
+  
 }
 
 
@@ -147,7 +148,39 @@ ol.contributing{
   margin-left: 35%;
   margin-top: 5px;
 }
-@media (max-width:750px) {
+.ui{
+  width: 50%;
+  height: 90vh;
+  margin-left: 20%;
+}
+.browse_img{
+  width: 45%;
+  height: 95vh;
+}
+.solution_img{
+   width: 45%;
+  height: 95vh;
+  margin-left: 30px;
+}
+.ask_img{
+   width: 50%;
+  height: 90vh;
+  margin-left: 20%;
+}
+.signup{
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 70%;
+  height: 55vh;
+  margin-bottom:20px ;
+}
+.profile{
+   margin-top: 30px;
+  margin-left: 10%;
+  width: 70%;
+  height: 55vh;
+}
+@media (max-width:450px) {
   .previous{
      font-size: 10px;
      margin-left: 15%;
@@ -156,6 +189,66 @@ ol.contributing{
     font-size: 10px;
 
   }
+  .ui{
+    width: 60%;
+    height: 45vh;
+  }
+  .browse_img{
+    width: 70%;
+    height: 40vh;
+    
+  }
+  .solution_img{
+   width: 70%;
+    height: 40vh;
+    margin-right: 20px;
+    margin-left: 0px;
+    
+  }
+  .ask_img{
+     width: 60%;
+    height: 45vh;
+    margin-left: 0px;
+  }
+  .signup{
+    width: 75%;
+    height: 25vh;
+    margin-left: 0px;
+  }
+  .profile{
+     width: 75%;
+    height: 25vh;
+    margin-left: 0px;
+  }
+}
+@media (min-width:450px) and (max-width:1100px ) {
+  .ui{
+    width: 80%;
+    height: 53vh;}
+    .browse_img{
+      width: 80%;
+    height: 53vh;
+    }
+    .solution_img{
+       width: 80%;
+    height: 53vh;
+    margin-left: 0px;
+    }
+    .ask_img{
+      width: 80%;
+    height: 53vh;
+    margin-left: 0px;
+    }
+    .signup{
+       width: 80%;
+    height: 40vh;
+    margin-left: 0px;
+    }
+    .profile{
+       width: 80%;
+    height: 35vh;
+    margin-left: 0px;
+    }
   
 }
 .Link{
@@ -167,3 +260,6 @@ font-size: 15px;
 padding: none;
 color: rgba(232, 234, 236, 0.83);
 }
+
+
+
